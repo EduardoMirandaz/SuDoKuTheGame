@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudoku!</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="sudoku.js"></script>
+</head>
+    <header>
+        <h1>Sudoku Game =)</h1>
+        <div id = "setup-game">
+            <div id= "diff">
+                <h3>Choose the difficulty: </h3>
+                <label><input id="diff_1" type = "radio" name="diff" value="easy" checked> Easy </label>
+                <label><input id="diff_2" type = "radio" name="diff" value="medium">  Medium </label>
+                <label><input id="diff_3" type = "radio" name="diff" value="hard"> Hard </label>
+            </div>
+            <!-- <div id = "time">
+                <h3>Choose the time: </h3>
+                <label><input id="time_1" type="radio" name="time" value="easyTime" checked> 3 min </label>
+                <label><input id="time_2" type="radio" name="time" value="mediumTime"> 7 min </label>
+                <label><input id="time_2" type="radio" name="time" value="hardTime"> 12 min </label>
+            </div> -->
+            <div id = "theme">
+                <h3>Choose theme</h3>
+                <label><input id="themeDay" type="radio" name="theme" value="dayTime" checked> Day </label>
+                <label><input id="themeNight" type="radio" name="theme" value="nightTime"> Night </label>
+            </div>
+        </div>
+        <button id="restartButton" class = "restButton">Create new game</button>
+
+    </header>
+    <body class="dayTheme">
+        <div id="stats">
+            <p id="timer"></p>
+            <p id="lives"></p>
+        </div>
+        <div id="game">
+            <div id="board"></div>
+            <div id="numberContainer" class="hidden">
+                <p id="1">1</p>
+                <p id="2">2</p>
+                <p id="3">3</p>
+                <p id="4">4</p>
+                <p id="5">5</p>
+                <p id="6">6</p>
+                <p id="7">7</p>
+                <p id="8">8</p>
+                <p id="9">9</p>
+            </div>
+            
+        </div>
+    </body>
+    <div class="signature">
+        <footer>Made with <i class="much-heart"></i> by <a href="https://github.com/EduardoMirandaz" target="blank">Eduardo Miranda</a></footer>
+    </div>
+</html>

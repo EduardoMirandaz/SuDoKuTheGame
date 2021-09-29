@@ -1,0 +1,186 @@
+
+
+.hidden{
+    display: none;
+}
+
+body.nightTheme{
+    background-image: url("https://wallpaperbat.com/img/501752-dark-black-simple-background-4k-simple-background-wallpaper-hd-wallpaper-wallpaper-dark-wallpaper-simple-background-dark-wallpaper-wallpaper.jpg");
+    color: white; /*seta a cor do texto*/
+    border-bottom: gray;
+}
+body.dayTheme{
+    background-image: url("https://c.wallhere.com/photos/7b/b3/2560x1600_px_Clear_Sky_lake_landscape_Low_Poly_minimalism_mountains_reflection-821999.jpg!d");
+    color: #333333;
+}
+header{
+    text-align: center;
+    border-bottom: 1.5px solid rebeccapurple;
+}
+
+
+.h1{
+    font-size: 45pt;
+}
+
+#setup-game{
+    display: flex; /* A flex container expands 
+    //             items to fill available free space or shrinks 
+    //             them to prevent overflow. */
+    justify-content: center;
+}
+
+#setup-game > *{ /* se trata de todas as divs dentro desse id*/
+    margin-bottom: 10px; /* da um espaçamento entre as divs*/
+    padding-left: 50px;
+    padding-right: 50px;
+    display: flex;
+    align-items: center;
+}
+
+
+.restButton{
+    justify-self: center;
+    width: 200px;
+    height:50px;
+    vertical-align: middle;
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border: 2px solid #e7e7e7;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.restButton:hover {
+    background-color: #e7e7e7;
+}
+
+p#timer, p#lives {
+    font-size: 25px;
+    font-weight: bold; /* negrito! */
+    text-align: center;
+}
+
+#game {
+    display: flex;
+    justify-content: center;
+}
+
+#numberContainer > * {
+    border: 1px solid rgb(165, 158, 158);
+    font-weight: bold;
+    border-radius: 20%;
+    width: 60px;
+    height: 60px;
+    font-size: 40pt;
+    margin-left: 50px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+#board {
+    padding-top: 10px;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 600px;
+    height: 600px;
+}
+
+
+.tile {
+    font-size: 42px;
+    font-weight: bold;
+    border: 1px solid black;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    margin: 0px;
+    vertical-align: middle; /* poe o texto no meio do elemento */
+}
+
+p.selected {
+    background-color: #4e51ec;
+    border-radius: 6px;
+    opacity: 0.5;
+}
+
+p.incorrect {
+    color: red;
+    
+}
+
+.rightBorder{
+    border-right: 5px solid gray;
+}
+.bottomBorder {
+    border-bottom: 5px solid gray;
+}
+
+.whiteForNight{
+    color: white;
+}
+
+.signature {
+	margin: 10px auto;
+	padding: 10px 0;
+	width: 100%;
+}
+
+
+.signature footer{
+	text-align: left;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-size: 0.85em;
+	color: #333333;
+}
+
+.signature .much-heart{
+	display: inline-block;
+	position: relative;
+	margin: 0 4px;
+	height: 10px;
+	width: 10px;
+	background: #AC1D3F;
+	border-radius: 4px;
+	-ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.signature .much-heart::before, 
+.signature .much-heart::after {
+	  display: block;
+  content: '';
+  position: absolute;
+  margin: auto;
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background: #AC1D3F;
+  top: -4px;
+}
+
+.signature .much-heart::after {
+	bottom: 0;
+	top: auto;
+	left: -4px;
+}
+
+.signature a {
+	color: #008cff;
+	text-decoration: none;
+	font-weight: bold;
+}
