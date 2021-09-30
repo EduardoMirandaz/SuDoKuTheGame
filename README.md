@@ -1,6 +1,6 @@
 # sudokuTheGame
 
-Jogo Sudoku criado por mim com o fito de ampliar meus conhecimentos na tríplica HTML, JS e CSS.
+Jogo Sudoku criado por mim com o fito de ampliar meus conhecimentos na tríplice HTML, JS e CSS.
 Nesse link dá pra jogar :)
 Ou apertem F12 e colem:
 
